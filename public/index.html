@@ -17,13 +17,35 @@
   </head>
   <body class="min-h-screen">
     <header class="py-7 my-0.5 px-24 max-w-screen-xl mx-auto">
-      <nav class="">
-        <img src="/public/asset/Logo Color.png" alt="">
-        <ul>
-          <li>Menu 1</li>
-          <li>Menu 1</li>
-          <li>Menu 1</li>
+      <nav class="grid grid-flow-col grid-cols-12 gap-8 item-center">
+        <img src="/public/asset/Logo Color.png" class="col-span-3" alt="" />
+        <ul class="mx-2 col-span-4 col-start-5 flex justify-between text-black">
+          <li class="cursor-pointer pb-3 border-b-2 border-darkblue">Home</li>
+          <li class="cursor-pointer pb-3 border-b-2 border-transparent hover:border-darkblue">
+            Features
+          </li>
+          <li class="cursor-pointer pb-3 border-b-2 border-transparent hover:border-darkblue">
+            Pricing
+          </li>
+          <li class="cursor-pointer pb-3 border-b-2 border-transparent hover:border-darkblue">
+            Blog
+          </li>
         </ul>
+        <div class="col-span-3 col-start-10 flex">
+          <button
+            class="
+              py-5
+              rounded-xl
+              text-center
+              bg-orange
+              text-white
+              flex-grow
+              ml-8
+            "
+          >
+            Get Started
+          </button>
+        </div>
       </nav>
     </header>
   </body>
