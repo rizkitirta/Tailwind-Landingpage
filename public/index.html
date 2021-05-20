@@ -1,70 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <script>
-      function darkModeOn() {
-        document.documentElement.classList.add("dark");
-      }
-      function darkModeOf() {
-        document.documentElement.classList.remove("dark");
-      }
-    </script>
-  </head>
-  <body class="min-h-screen">
-    <header class="py-7 my-0.5 px-24 max-w-screen-xl mx-auto">
-      <nav class="grid grid-flow-col grid-cols-12 gap-8 item-center">
-        <img src="/public/asset/Logo Color.png" class="col-span-3" alt="" />
-        <ul class="mx-2 col-span-4 col-start-5 flex justify-between text-black">
-          <li class="cursor-pointer pb-3 border-b-2 border-darkblue">Home</li>
-          <li
-            class="
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <script>
+    function darkModeOn() {
+      document.documentElement.classList.add("dark");
+    }
+
+    function darkModeOf() {
+      document.documentElement.classList.remove("dark");
+    }
+  </script>
+</head>
+
+<body class="min-h-screen">
+  <header class="py-7 my-0.5 px-24 max-w-screen-xl mx-auto">
+    <nav class="grid grid-flow-col grid-cols-12 gap-8 item-center">
+      <img src="/public/asset/Logo Color.png" class="col-span-3" alt="" />
+      <ul class="mx-2 col-span-4 col-start-5 flex justify-between text-black">
+        <li class="cursor-pointer pb-3 border-b-2 border-darkblue">Home</li>
+        <li class="
               cursor-pointer
               pb-3
               border-b-2 border-transparent
               hover:border-darkblue
-            "
-          >
-            Features
-          </li>
-          <li
-            class="
+            ">
+          Features
+        </li>
+        <li class="
               cursor-pointer
               pb-3
               border-b-2 border-transparent
               hover:border-darkblue
-            "
-          >
-            Pricing
-          </li>
-          <li
-            class="
+            ">
+          Pricing
+        </li>
+        <li class="
               cursor-pointer
               pb-3
               border-b-2 border-transparent
               hover:border-darkblue
-            "
-          >
-            Blog
-          </li>
-        </ul>
-        <div class="col-span-3 col-start-10 flex">
-          <button
-            class="
+            ">
+          Blog
+        </li>
+      </ul>
+      <div class="col-span-3 col-start-10 flex">
+        <button class="
               py-3
               rounded-xl
               text-center
@@ -72,45 +62,77 @@
               text-white
               flex-grow
               ml-8
-            "
-          >
+            ">
+          Get Started
+        </button>
+      </div>
+    </nav>
+    <div class="grid grid-flow-col grid-cols-12 gap-8 my-24 mb-26 py-1">
+      <div class="flex flex-col py-20 my-3 col-span-4">
+        <h1 class="font-bold text-6xl leading-tight">
+          Grow your subscription business
+        </h1>
+        <p class="text-xl text-gray font-mulish my-8">
+          Outcome-centered products that reduce churn, optimize pricing, and
+          grow your subscription business end-to-end.
+        </p>
+        <div class="flex">
+          <button class="
+                py-3
+                rounded-xl
+                text-center
+                bg-darkblue
+                text-white
+                flex-grow
+              ">
             Get Started
           </button>
-        </div>
-      </nav>
-      <div class="grid grid-flow-col grid-cols-12 gap-8 my-24 mb-26 py-1">
-        <div class="flex flex-col py-20 my-3 col-span-4">
-          <h1 class="font-bold text-6xl leading-tight">
-            Grow your subscription business
-          </h1>
-          <p class="text-xl text-gray font-mulish my-8">
-            Outcome-centered products that reduce churn, optimize pricing, and
-            grow your subscription business end-to-end.
-          </p>
-          <div class="flex">
-            <button
-            class="py-3 rounded-xl text-center bg-darkblue text-white flex-grow"
-          >
-            Get Started
-          </button>
-          <img src="/public/asset/Down Arrow.png" class="ml-8" alt="">
-          </div>
-        </div>
-        <div class="relative col-span-7 col-start-7 -mr-16">
-          <div class="absolute">
-            <img src="/public/asset/Hero 3D.png" class="w-full" alt="" />
-          </div>
+          <img src="/public/asset/Down Arrow.png" class="ml-8" alt="" />
         </div>
       </div>
-    </header>
-    <main class="py-7 my-0.5 px-24 max-w-screen-xl mx-auto">
-      <section id="client-logo" class="flex justify-between item-center">
-        <img src="/public/asset/Group.svg" alt="">
-        <img src="/public/asset/Group (1).svg" alt="">
-        <img src="/public/asset/Group (2).svg" alt="">
-        <img src="/public/asset/Group (3).svg" alt="">
-        <img src="/public/asset/Group (4).svg" alt="">
-      </section>
-    </main>
-  </body>
+      <div class="relative col-span-7 col-start-7 -mr-16">
+        <div class="absolute">
+          <img src="/public/asset/Hero 3D.png" class="w-full" alt="" />
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="py-7 my-4 px-24 max-w-screen-xl mx-auto">
+    <section id="client-logo" class="flex justify-between item-center">
+      <img src="/public/asset/Group.svg" alt="" />
+      <img src="/public/asset/Group (1).svg" alt="" />
+      <img src="/public/asset/Group (2).svg" alt="" />
+      <img src="/public/asset/Group (3).svg" alt="" />
+      <img src="/public/asset/Group (4).svg" alt="" />
+    </section>
+
+    <section id="feature" class="my-24 max-w-screen-xl mx-auto">
+     <div class="w-full grid grid-cols-12 gap-4 gap-y-16">
+      <div class="col-span-5">
+        <img src="/public/asset/Content Image 02.png" alt="" />
+      </div>
+      <div class="col-span-5 my-auto col-start-7">
+        <h2 class="text-5xl font-semibold">Subscription index</h2>
+        <p class="text-xl my-5 text-gray">
+          A daily dataset to keep you up to date on subscription market trends
+          and what's happening in your vertical.
+        </p>
+        <a href="">Learn More</a>
+      </div>
+
+      <div class="col-span-5 my-auto">
+        <h2 class="text-5xl font-semibold">In-depth metrics</h2>
+        <p class="text-xl my-5 text-gray">
+          Accurate, real-time reporting at your fingertips. Getting data has
+          never been easier.
+        </p>
+      </div>
+      <div class="col-span-5 col-start-9">
+        <img src="/public/asset/Content Image.png" alt="" />
+      </div>
+     </div>
+    </section>
+  </main>
+</body>
+
 </html>
