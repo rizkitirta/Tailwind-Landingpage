@@ -10,6 +10,7 @@ module.exports = {
       'gray' : '#696871',
       'red' : '#696871',
       'white': '#FFFFFF',
+      'white-light': '#F7F7F8',
       'transparent': 'transparent',
     },
     fontSize: {
@@ -23,7 +24,7 @@ module.exports = {
       '3xl': '1.875rem',
       '4xl': '2.25rem',
        '5xl': '3rem',
-       '6xl': '4rem',
+       '6xl': '3.75rem',
       '7xl': '5rem',
      },
     extend: {},
