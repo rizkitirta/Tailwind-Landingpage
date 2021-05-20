@@ -5,12 +5,14 @@ module.exports = {
   theme: {
     colors:{
       'orange':'#FF7143',
+      'dark-orange':'#9F3919',
       'darkblue':'#5454D4',
       'black': '#19191B',
       'gray' : '#696871',
       'red' : '#696871',
       'white': '#FFFFFF',
-      'white-light': '#F7F7F8',
+      'white-light': '#F7F7FB',
+      'white-lighter' : '#F8F8F8',
       'transparent': 'transparent',
     },
     fontSize: {
