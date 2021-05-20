@@ -6,6 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <script>
       function darkModeOn() {
         document.documentElement.classList.add("dark");
@@ -21,20 +31,41 @@
         <img src="/public/asset/Logo Color.png" class="col-span-3" alt="" />
         <ul class="mx-2 col-span-4 col-start-5 flex justify-between text-black">
           <li class="cursor-pointer pb-3 border-b-2 border-darkblue">Home</li>
-          <li class="cursor-pointer pb-3 border-b-2 border-transparent hover:border-darkblue">
+          <li
+            class="
+              cursor-pointer
+              pb-3
+              border-b-2 border-transparent
+              hover:border-darkblue
+            "
+          >
             Features
           </li>
-          <li class="cursor-pointer pb-3 border-b-2 border-transparent hover:border-darkblue">
+          <li
+            class="
+              cursor-pointer
+              pb-3
+              border-b-2 border-transparent
+              hover:border-darkblue
+            "
+          >
             Pricing
           </li>
-          <li class="cursor-pointer pb-3 border-b-2 border-transparent hover:border-darkblue">
+          <li
+            class="
+              cursor-pointer
+              pb-3
+              border-b-2 border-transparent
+              hover:border-darkblue
+            "
+          >
             Blog
           </li>
         </ul>
         <div class="col-span-3 col-start-10 flex">
           <button
             class="
-              py-5
+              py-3
               rounded-xl
               text-center
               bg-orange
@@ -47,6 +78,30 @@
           </button>
         </div>
       </nav>
+      <div class="grid grid-flow-col grid-cols-12 gap-8 my-24 py-1">
+        <div class="flex flex-col py-20 my-3 col-span-4">
+          <h1 class="font-bold text-6xl leading-tight">
+            Grow your subscription business
+          </h1>
+          <p class="text-xl text-gray font-mulish my-8">
+            Outcome-centered products that reduce churn, optimize pricing, and
+            grow your subscription business end-to-end.
+          </p>
+          <div class="flex">
+            <button
+            class="py-3 rounded-xl text-center bg-darkblue text-white flex-grow"
+          >
+            Get Started
+          </button>
+          <img src="/public/asset/Down Arrow.png" class="ml-8" alt="">
+          </div>
+        </div>
+        <div class="relative col-span-7 col-start-7 -mr-16">
+          <div class="absolute">
+            <img src="/public/asset/Hero 3D.png" class="w-full" alt="" />
+          </div>
+        </div>
+      </div>
     </header>
   </body>
 </html>
